@@ -185,6 +185,11 @@ name = "rav1e-ch"
 required-features = ["binaries", "channel-api", "unstable"]
 bench = false
 
+[[bin]]
+name = "simple_app"
+required-features = ["binaries"]
+bench = false
+
 [lib]
 bench = false
 
